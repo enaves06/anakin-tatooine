@@ -1,0 +1,17 @@
+<?php echo $this->doctype(); ?>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <?php echo $this->headTitle('DBISmartScore ') ?>
+        <?php echo $this->headMeta()->appendName('viewport', 'width=device-width, initial-scale=1.0') ?>
+
+        <!-- Le styles -->
+        <?php echo $this->headLink() ?>
+
+        <!-- Scripts -->
+        <?php echo $this->headScript()?>
+            <?php echo $this->content; ?>
+        <?php echo $this->inlineScript() ?>
+    </body>
+</html>

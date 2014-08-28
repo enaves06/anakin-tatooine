@@ -1,0 +1,7 @@
+ <!-- Styles -->
+<?php $this->headLink()->appendStylesheet('/../ext/ext-4.2.1.883/resources/css/ext-all.css')?>
+<!-- Scripts -->
+<?php $this->headScript()->appendFile('/../ext/ext-4.2.1.883/ext-all.js')
+                         ->appendScript(" var baseUrl = '".$this->basePath()."'; ")
+                         ->appendFile($this->basePath() . '/app/modules/cgp/cmc/Bootstrap.js'); ?>
+
